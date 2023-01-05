@@ -6,9 +6,6 @@ from io import BytesIO
 import os
 
 
-
-import os
-
 from transformers import CLIPTextModel, CLIPTokenizer
 import torch
 from diffusers import StableDiffusionPipeline, DDIMScheduler, DPMSolverMultistepScheduler, LMSDiscreteScheduler, EulerDiscreteScheduler, DDPMScheduler, UNet2DConditionModel, AutoencoderKL
