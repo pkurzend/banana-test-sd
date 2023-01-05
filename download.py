@@ -7,6 +7,7 @@ import os
 from transformers import CLIPTextModel, CLIPTokenizer
 import torch
 from diffusers import StableDiffusionPipeline, DDIMScheduler, DPMSolverMultistepScheduler, LMSDiscreteScheduler, EulerDiscreteScheduler, DDPMScheduler, UNet2DConditionModel, AutoencoderKL
+from CLIPTokenizerWithEmbeddings import CLIPTokenizerWithEmbeddings
 
 HF_AUTH_TOKEN = os.getenv("HF_AUTH_TOKEN")
 
